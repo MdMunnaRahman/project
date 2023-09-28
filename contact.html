@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Contact</title>
+    
+    <link rel="stylesheet" href="style.css"/>
+    <style>
+       body{
+        justify-content: center;
+        align-items: center;
+       }
+
+        .contact {
+           
+            max-width: 700px;
+            height: 600px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+
+        .contact-img {
+            width: 50%;
+        }
+
+        .contact-from {
+            width: 50%;
+        }
+        .contact-from input[type="text"],
+        .contact-from input[type="email"]{
+            width: 100%;
+            padding: 8px;
+            margin:10px;
+            text-align:left;
+            color: navy;
+        }
+        .contact-from textarea{
+            width: 100%;
+        }
+        .contact-from input[type="submit"]{
+            border:none;
+            padding:8px 30px;
+            background-color: blue;
+            color:black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex-contanier contact">
+        <div class="contact-img">
+            <img src="https://img.freepik.com/free-vector/web-development-seo-concept-design-cartoon-character-flat-style_1362-164.jpg"
+                width="100%" />
+
+        </div>
+        <div class="contact-from">
+            <h1>Get In tuch</h1>
+            <div action="">
+                <input type="text" placeholder="Enter Text" required/>
+                <input type="email" placeholder="Enter Email" required/>
+                <textarea cols="30" rows="10">Enter Text</textarea>
+                <input type="submit" value="Submit"/>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
